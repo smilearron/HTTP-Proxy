@@ -16,7 +16,10 @@
 
 • The proxy closes the connection socket to the client.
 
+
 How to test the programs?
+
 You first download a resource located at a URL using the wget command without the proxy. This is the correct resource. 
+
 Then you download the same resource at the same URL with your proxy. Use the diff command to check if the two downloaded resources matches.
 
